@@ -2,12 +2,11 @@
     "name": "anzo",
     "version": "1.0",
     "description": "Curated content for meaningful breaks",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
     },
-    "page_action": {
+    "browser_action": {
       "default_popup": "popup.html",
       "default_icon": {
         "16": "images/anzo-16x16.png",
