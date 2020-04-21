@@ -1,0 +1,9 @@
+body {
+    width: auto;
+    height: auto;
+}
+
+
+.image {
+    border: 10px solid black;
+}
