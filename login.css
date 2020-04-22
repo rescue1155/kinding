@@ -1,0 +1,53 @@
+body {
+    width: auto;
+    height: auto;
+}
+
+.page {
+    width: 300px;
+    height: 500px;
+}
+
+.full-logo {
+    width: 111.7px;
+    height: 30px;
+}
+
+.description {
+    font-family: 'Raleway';
+    font-size: 24px;
+}
+
+.summary-title {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.summary-item-text {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.login-button {
+    width: 246px;
+    height: 40px;
+    background-color: #20A39E;
+    border-radius: 20px;
+}
+
+.login-button-text {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sign-up-button {
+    width: 113px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #20A39E;
+}
+
+
+
