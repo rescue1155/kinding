@@ -1,0 +1,55 @@
+body {
+    width: auto;
+    height: auto;
+}
+
+.custom-header1 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #2c2c2c;
+}
+
+.custom-full-logo {
+    width: 111.7px;
+    height: 30px;
+}
+
+.custom-full-popup-page {
+    width: 300px;
+    height: 500px;
+}
+
+.custom-header2 {
+    font-family: 'Raleway';
+    font-size: 24px;
+}
+
+.custom-button-highlighted {
+    width: 246px;
+    height: 40px;
+    background-color: #20A39E;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button-only-text {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #20A39E;
+}
+
+.custom-input-box {
+    width: 246px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #6c6c6c;
+    padding-left: 12px;
+    color: #6c6c6c;
+    font-family: 'Raleway';
+    font-size: 16px;
+}

@@ -4,11 +4,11 @@
     "description": "Curated content for meaningful breaks",
     "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["js/background.js"],
       "persistent": false
     },
     "browser_action": {
-      "default_popup": "login.html",
+      "default_popup": "html/links.html",
       "default_icon": {
         "16": "images/anzo-16x16.png",
         "32": "images/anzo-32x32.png",
