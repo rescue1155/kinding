@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body .page {
+    height: 500px;
+    width: 300px;
+    background: #20A39E;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 30px;
+    margin-bottom: 48px;
+    width: 111.7px;
+    height: 30px;
+}
+
+.time-selection-button {
+    width: 230px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border-style: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #2C2C2C;
+}
+
+.mins-button5 {
+    margin-bottom: 20px;
+}
+
+.mins-button15 {
+    margin-bottom: 20px;
+}
+
+.mins-button30 {
+    margin-bottom: 78px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.settings-icon .user-profile-icon {
+    width: 24px;
+    height: 24px;
+}
