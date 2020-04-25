@@ -1,6 +1,12 @@
-body {
-    width: auto;
-    height: auto;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 500px;
+    width: 300px;
 }
 
 .custom-header1 {
@@ -46,4 +52,34 @@ body {
     color: #6c6c6c;
     font-family: 'Raleway';
     font-size: 16px;
+}
+
+.settings-icon .user-profile-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.selection-button {
+    width: 230px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border-style: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #2C2C2C;
+    text-align: center;
 }
