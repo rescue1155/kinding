@@ -1,7 +1,7 @@
 {
-    "name": "anzo",
+    "name": "kinding",
     "version": "1.0",
-    "description": "Curated content for meaningful breaks",
+    "description": "Changing the world through kinding.",
     "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
     "background": {
       "scripts": ["js/background.js"],
@@ -10,17 +10,17 @@
     "browser_action": {
       "default_popup": "html/root.html",
       "default_icon": {
-        "16": "images/anzo-16x16.png",
-        "32": "images/anzo-32x32.png",
-        "48": "images/anzo-48x48.png",
-        "128": "images/anzo-128x128.png"
+        "16": "images/kinding-16x16.png",
+        "32": "images/kinding-32x32.png",
+        "48": "images/kinding-48x48.png",
+        "128": "images/kinding-128x128.png"
       }
     },
     "icons": {
-      "16": "images/anzo-16x16.png",
-      "32": "images/anzo-32x32.png",
-      "48": "images/anzo-48x48.png",
-      "128": "images/anzo-128x128.png"
+      "16": "images/kinding-16x16.png",
+      "32": "images/kinding-32x32.png",
+      "48": "images/kinding-48x48.png",
+      "128": "images/kinding-128x128.png"
     },
     "manifest_version": 2
   }
