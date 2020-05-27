@@ -28,14 +28,9 @@
 
 .slogan-title {
     position: absolute;
-    width: 268px;
-    height: 19px;
     left: 17px;
     top: 108px;
-
     font-family: Nunito;
-    font-style: normal;
-    font-weight: 300;
     font-size: 21px;
     line-height: 19px;
     text-align: center;
