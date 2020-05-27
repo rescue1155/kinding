@@ -150,7 +150,7 @@
     cursor: pointer;
 }
     
-.share {
+/* .share {
     position: absolute;
     left: 65px;
     top: 469px;
@@ -171,9 +171,18 @@
     cursor: pointer;
     color: #9997B6;
 }
-
+*/
 
 
 a:link {
-  color: #2C2C2C;
+    position: absolute;
+    left: 65px;
+    top: 469px;
+    font-family: Nunito;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+    text-decoration-line: underline;
 }
