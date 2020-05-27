@@ -3,5 +3,5 @@ document.getElementById("go-button").addEventListener("click", () => {
 });
 
 document.getElementById("more-info").addEventListener("click", () => {
-    window.location.href = "/html/more-info.html";
+    window.location.href = "/html/info.html";
 });
