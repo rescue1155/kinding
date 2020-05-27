@@ -104,6 +104,15 @@
     color: #2C2C2C;
 }
 
+.more-info {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 263px;
+    top: 321px;
+    z-index: 999;
+}
+
 .go-button {
     position: absolute;
     width: 190px;
