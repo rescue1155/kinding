@@ -117,7 +117,10 @@
     font-family: Nunito;
     top: 371px;
 }
-    
-        
+
+.go-button:hover {
+    background: rgba(167, 165, 198, 0.75);
+    cursor: pointer;
+}
     
     
