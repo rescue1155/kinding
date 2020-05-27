@@ -117,6 +117,19 @@
     cursor: pointer;
 }
 
+.get {
+    position: absolute;
+    left: 24px;
+    top: 367px;
+    font-family: Nunito;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 .go-button {
     position: absolute;
     width: 190px;
@@ -132,20 +145,6 @@
     top: 406px;
 }
 
-.get {
-    position: absolute;
-    left: 24px;
-    top: 367px;
-    font-family: Nunito;
-    font-weight: 100;
-    font-size: 18px;
-    line-height: 19px;
-    text-align: center;
-    color: #2C2C2C;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-}
-
-
 .go-button:hover {
     background: #9997B6;
     cursor: pointer;
@@ -153,7 +152,7 @@
     
 .share {
     position: absolute;
-    left: 54px;
+    left: 65px;
     top: 469px;
     font-family: Nunito;
     font-weight: 100;
@@ -162,4 +161,13 @@
     text-align: center;
     color: #2C2C2C;
     text-decoration-line: underline;
+}
+
+.share:hover {
+    cursor: pointer;
+    color: #9997B6;
+}
+
+a:link {
+  color: #2C2C2C;
 }
