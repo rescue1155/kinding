@@ -13,7 +13,7 @@
 
 .background-image {
     position: absolute;
-    z-index: -1
+    z-index: 1
     height: 500px;
     width: 300px;
 }
