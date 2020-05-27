@@ -163,8 +163,11 @@
     text-decoration-line: underline;
 }
 
+.a:link {
+    color: #2C2C2C;
+}
 
-.share:hover {
+/* .share:hover {
     cursor: pointer;
     color: #9997B6;
-}
+} */
