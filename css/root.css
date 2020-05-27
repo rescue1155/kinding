@@ -113,6 +113,11 @@
     z-index: 999;
 }
 
+.more-info:hover {
+    background: #9997B6;
+    cursor: pointer;
+}
+
 .go-button {
     position: absolute;
     width: 190px;
