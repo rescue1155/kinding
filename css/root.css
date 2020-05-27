@@ -12,6 +12,10 @@
     background-image: url("/images/kinding-background.png");
 }
 
+.background-image {
+    position: absolute;
+    z-index: -1
+
 .icon-logo {
     position: absolute;
     width: 70px;
