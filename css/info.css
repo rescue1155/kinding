@@ -144,10 +144,14 @@
     text-align: center;
     font-size: 22px;
     font-family: Nunito;
-    top: 430px;
+    top: 420px;
 }
 
 .go-button:hover {
     background: #9997B6;
     cursor: pointer;
+}
+
+.go-button:focus {
+  outline: none;
 }
