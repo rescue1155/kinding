@@ -77,7 +77,9 @@
 .success-button:hover {
     cursor: pointer;
 }
-
+.success-button:focus {
+  outline: none;
+}
 
 .reminder-button {
     position: absolute;
@@ -94,6 +96,9 @@
 }
 .reminder-button:hover {
     cursor: pointer;
+}
+.reminder-button:focus {
+  outline: none;
 }
 
 .encourage-button {
@@ -112,6 +117,9 @@
 .encourage-button:hover {
     cursor: pointer;
 }
+.encourage-button:focus {
+  outline: none;
+}
 
 .failure-button {
     position: absolute;
@@ -128,4 +136,7 @@
 }
 .failure-button:hover {
     cursor: pointer;
+}
+.failure-button:focus {
+  outline: none;
 }
