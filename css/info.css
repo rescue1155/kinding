@@ -1,0 +1,19 @@
+.go-button {
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 55px;
+    background-color: #A7A5C6;
+    border-radius: 20px;
+    border-width: 0px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    font-family: Nunito;
+    top: 430px;
+}
+
+.go-button:hover {
+    background: #9997B6;
+    cursor: pointer;
+}
