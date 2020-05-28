@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 41px;
-    line-height: 19px;
+    line-height: 36px;
     text-align: center;
     color: #2C2C2C;
 }
@@ -30,8 +30,8 @@
     position: absolute;
     width: 37px;
     height: 23px;
-    left: 169px;
-    top: 132px;
+    left: 132px;
+    top: 109px;
 }
 
 .display-data {
@@ -55,10 +55,11 @@
     height: 70px;
     left: 0px;
     top: 321px;
-    color: #ADF7B6;
+    background: #ADF7B6;
     text-align: center;
     font-size: 30px;
     font-family: Nunito;
+    border-width: 0px;
 }
 .success-button:hover {
     cursor: pointer:
@@ -73,8 +74,9 @@
     top: 391px;
     background: #8BE1DE;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
     font-family: Nunito;
+    border-width: 0px;
 }
 .reminder-button:hover {
     cursor: pointer:
@@ -88,8 +90,9 @@
     top: 391px;
     background: #FFEE93;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
     font-family: Nunito;
+    border-width: 0px;
 }
 .encourage-button:hover {
     cursor: pointer:
@@ -103,8 +106,9 @@
     top: 460px;
     background: #FFC09F;
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
     font-family: Nunito;
+    border-width: 0px;
 }
 .failure-button:hover {
     cursor: pointer:
