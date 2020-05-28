@@ -36,7 +36,7 @@
                 <button id="encourage-button" class="encourage-button">I need encouragement</button>
                 <button id="failure-button" class="failure-button">I give up...</button>
           
-            <script>
+                <script>
     function makeApiCall() {
       var params = {
         // The ID of the spreadsheet to retrieve data from.
@@ -60,6 +60,7 @@
       request.then(function(response) {
         // TODO: Change code below to process the `response` object:
         console.log(response.result);
+        populatesheet(response.result);
       }, function(reason) {
         console.error('error: ' + reason.result.error.message);
       });
@@ -106,6 +107,17 @@
     function handleSignOutClick(event) {
       gapi.auth2.getAuthInstance().signOut();
     }
+
+    function populateSheet(result) {
+      for(var row=0; row<8; row++){
+        for(var col=0; col<3; col++) {
+          document.getElementById(row+":"+col).value = result.values[row][col];
+        }
+      }
+    }
+
+
+
     </script>
     <script async defer src="https://apis.google.com/js/api.js"
       onload="this.onload=function(){};handleClientLoad()"
@@ -113,6 +125,17 @@
     </script>
     <button id="signin-button" onclick="handleSignInClick()">Sign in</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign out</button>
+
+    <div style="margin-left:auto; margin-right:auto; width:960px;">
+        <?php
+        for($row = 0; $row < 8; $row++) {
+          echo "<div style='clear:both'>";
+          for($col = 0; $col < 3; $col++) {
+            echo "<input type='text' style='float:left;' name = '$row:$col' id='$row:$col'>";
+          }
+          echo "</div>";
+        }
+        ?>
         
             
         </div>
