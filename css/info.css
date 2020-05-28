@@ -25,6 +25,10 @@
     top: 10px;
 }
 
+.back-icon:hover {
+    cursor: pointer;
+}
+
 .info-title {
     position: absolute;
     width: 174px;
