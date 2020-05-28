@@ -1,3 +1,138 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+}
+
+.background-image-2 {
+    position: absolute;
+    height: 500px;
+    width: 300px;
+}
+
+.back-button {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 8px;
+    top: 8px;
+}
+
+.info-title {
+    position: absolute;
+    width: 174px;
+    height: 19px;
+    left: 63px;
+    top: 52px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-title-description {
+    position: absolute;
+    width: 241px;
+    height: 76px;
+    left: 30px;
+    top: 83px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.steps-title {
+    position: absolute;
+    width: 220px;
+    height: 19px;
+    left: 40px;
+    top: 189px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.steps-description {
+    position: absolute;
+    width: 241px;
+    height: 38px;
+    left: 30px;
+    top: 220px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.steps-1 {
+    position: absolute;
+    width: 236px;
+    height: 38px;
+    left: 35px;
+    top: 274px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.steps-2 {
+    position: absolute;
+    width: 210px;
+    height: 19px;
+    left: 35px;
+    top: 326px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.steps-3 {
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 35px;
+    top: 359px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+
 .go-button {
     position: absolute;
     width: 190px;
