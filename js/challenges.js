@@ -19,6 +19,9 @@ document.getElementById("failure-button").addEventListener("click", () => {
 });
 
 
+var mainContainer = document.getElementById("display-data");
+
+
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keyCLfpLr70tFjAiJ'}).base('appw7q9xOL7nliwUP');
 
