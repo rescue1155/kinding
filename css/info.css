@@ -21,9 +21,12 @@
     position: absolute;
     width: 36px;
     height: 36px;
-    left: 50px;
-    top: 50px;
     z-index:999;
+}
+
+.back-button-div {
+    left: 10px;
+    top: 10px;
 }
 
 .info-title {
