@@ -149,6 +149,10 @@
     background: #9997B6;
     cursor: pointer;
 }
+
+.go-button:focus {
+  outline: none;
+}
     
 .share a {
     position: absolute;
