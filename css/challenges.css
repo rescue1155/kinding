@@ -10,3 +10,102 @@
     height: 500px;
     width: 300px;
 }
+
+.text-title {
+    position: absolute;
+    width: 173px;
+    height: 58px;
+    left: 64px;
+    top: 27px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.down-arrow {
+    position: absolute;
+    width: 37px;
+    height: 23px;
+    left: 169px;
+    top: 132px;
+}
+
+.display-data {
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    left: 50px;
+    top: 162px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.success-button {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 0px;
+    top: 321px;
+    color: #ADF7B6;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+}
+.success-button:hover {
+    cursor: pointer:
+}
+
+
+.reminder-button {
+    position: absolute;
+    width: 150px;
+    height: 69px;
+    left: 0px;
+    top: 391px;
+    background: #8BE1DE;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+}
+.reminder-button:hover {
+    cursor: pointer:
+}
+
+.encourage-button {
+    position: absolute;
+    width: 150px;
+    height: 69px;
+    left: 150px;
+    top: 391px;
+    background: #FFEE93;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+}
+.encourage-button:hover {
+    cursor: pointer:
+}
+
+.failure-button {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 0px;
+    top: 460px;
+    background: #FFC09F;
+    text-align: center;
+    font-size: 30px;
+    font-family: Nunito;
+}
+.failure-button:hover {
+    cursor: pointer:
+}
